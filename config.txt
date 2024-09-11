@@ -1,0 +1,3 @@
+subscriber_code=your_subscriber_code_here
+url=url of api
+application_key=your_application_key_here
