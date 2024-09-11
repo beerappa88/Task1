@@ -2,11 +2,11 @@ import requests
 import pandas as pd 
 
 class VistaClient:
-    def __init__(self, subscriber_code, url):
+    def __init__(self, subscriber_code, url, application_key):
         self.subscriber_code = subscriber_code
         self.url = url
         self.headers = {
-            'x-applicationKey': ""
+            'x-applicationKey': application_key
         }
 
     def get_response(self):
